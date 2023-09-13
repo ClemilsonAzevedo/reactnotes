@@ -1,10 +1,10 @@
-import './style.css'
+import { Container } from './style'
 
-export function Details(){
-  return(
-    <>
+export function Details() {
+  return (
+    <Container>
       <h1>Hello World</h1>
-      <span>CLemilson Azevedo</span>
-    </>
+      <span>Clemilson Azevedo</span>
+    </Container>
   )
-} 
+}
