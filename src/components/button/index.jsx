@@ -1,10 +1,12 @@
 import { Container } from "./style";
 
-export function Button(){
+export function Button({ ...rest }){
 
   return(
     <Container type="button">
-      Meu button
+
+      
+    
     </Container>
   )
 }n
