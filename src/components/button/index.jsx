@@ -1,7 +1,7 @@
 import { Container } from './style'
 
-export function Button({ ...rest }) {
+export function Button({ children, ...rest }) {
   return <Container type="button">
-    
+    {children}
   </Container>
 }
