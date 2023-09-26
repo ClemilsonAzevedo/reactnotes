@@ -1,6 +1,6 @@
 import { Container } from './style'
 
-export function Button({  }) {
+export function Button({ ...rest }) {
   return <Container type="button">
     
   </Container>
