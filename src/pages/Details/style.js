@@ -1,26 +1,21 @@
 import { styled } from 'styled-components'
 
-export const Container  = styled.div`
-  
+export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  
+
   display: grid;
   grid-template-rows: 105px auto;
 
   grid-template-areas:
     'header'
-    'content'
-  ;
-
+    'content';
 `
 
 export const Links = styled.ul`
-
   margin-top: 12px;
 
   a {
-    color: ${( {theme} ) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
-
 `

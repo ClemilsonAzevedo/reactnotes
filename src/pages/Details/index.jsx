@@ -8,12 +8,13 @@ export function Details() {
     <Container>
       <Header />
       <Section title={'Links Uteis'}>
-
         <Links>
-          <li><a href="#">Link1</a></li>
+          <li>
+            <a href="#">Link1</a>
+          </li>
         </Links>
       </Section>
-      
+
       <Button title="Back" />
     </Container>
   )
