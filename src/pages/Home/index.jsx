@@ -1,5 +1,6 @@
 import { Container, Brand, Menu, Search, Content, NewNotes } from './style'
 import { Header } from '../../components/Header'
+import { ButtonText } from '../../components/ButtonText'
 
 export function Home() {
   return (
@@ -13,7 +14,15 @@ export function Home() {
       <Header />
       
       <Menu>
-
+        <li>
+          <ButtonText isActive title={'All'} />
+        </li>
+        <li>
+          <ButtonText title={'React'} />
+        </li>
+        <li>
+          <ButtonText title={'Nodejs'} />
+        </li>
       </Menu>
 
       <Search>
@@ -26,7 +35,7 @@ export function Home() {
       </Content>
 
       <NewNotes>
-        
+
       </NewNotes>
 
     </Container>
