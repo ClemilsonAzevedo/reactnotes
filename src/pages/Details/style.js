@@ -21,10 +21,13 @@ export const Container = styled.div`
 
 export const Links = styled.ul`
   margin-top: 12px;
-
+  list-style: none;
+  
   a {
     color: ${({ theme }) => theme.COLORS.WHITE};
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 `
 
