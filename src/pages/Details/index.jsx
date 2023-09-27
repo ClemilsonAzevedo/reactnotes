@@ -1,4 +1,4 @@
-import { Container, Links } from './style'
+import { Container, Links, Content } from './style'
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Button } from '../../components/Button'
@@ -9,23 +9,26 @@ export function Details() {
   return (
     <Container>
       <Header />
+      <main>
+        <Content>
+          <ButtonText title={'Excluir nota'} />
 
-      <ButtonText title={'Excluir nota'} />
+          <Section title={'Links Uteis'}>
+            <Links>
+              <li>
+                <a href="#">Link1</a>
+              </li>
+            </Links>
+          </Section>
 
-      <Section title={'Links Uteis'}>
-        <Links>
-          <li>
-            <a href="#">Link1</a>
-          </li>
-        </Links>
-      </Section>
+          <Section title={'Marcadores'}>
+            <Tag title={'express'} />
+            <Tag title={'Notes'} />
+          </Section>
 
-      <Section title={'Marcadores'}>
-        <Tag title={'express'} />
-        <Tag title={'Notes'} />
-      </Section>
-
-      <Button title="Back" />
+          <Button title="Back" />
+        </Content>
+      </main>
     </Container>
   )
 }

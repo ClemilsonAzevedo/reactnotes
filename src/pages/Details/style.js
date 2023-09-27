@@ -19,3 +19,9 @@ export const Links = styled.ul`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `
+
+export const Content = styled.div`
+
+  
+
+`
