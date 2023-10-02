@@ -30,7 +30,7 @@ export const Form = styled.form`
     color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
 
-  > button {
+  > button{
     width: 100%;
   }
 
