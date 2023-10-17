@@ -20,7 +20,7 @@ export function SignUp() {
 
         <Button title={'Sign Up'} />
 
-        <a href="#">Back to Login</a>
+        <a href="/">Back to Login</a>
       </Form>
     </Container>
   )
