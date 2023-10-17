@@ -4,6 +4,7 @@ import { ButtonText } from '../../components/ButtonText'
 import { Button } from '../../components/Button'
 import { Section } from '../../components/Section'
 import { Tag } from '../../components/Tag'
+import { Link } from 'react-router-dom'
 
 export function Details() {
   return (
@@ -18,7 +19,7 @@ export function Details() {
 
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industry us standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -31,9 +32,9 @@ export function Details() {
           <Section title={'Utils Links'}>
             <Links>
               <li>
-                <a href="#">https://Clemilsonazevedo.github.io/Devlinks</a>
-                <a href="#">https://github.com/clemilsonazevedo</a>
-                <a href="#">https://clemilsonazevedo.dev</a>
+                <Link to="#">https://Clemilsonazevedo.github.io/Devlinks</Link>
+                <Link to="#">https://github.com/clemilsonazevedo</Link>
+                <Link to="#">https://clemilsonazevedo.dev</Link>
               </li>
             </Links>
           </Section>
