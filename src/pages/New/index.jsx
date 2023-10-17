@@ -1,14 +1,12 @@
 import { Container, Form } from "./style";
 import { Header } from '../../components/Header'
 import {Input} from '../../components/Input'
+import { TextArea } from '../../components/TextArea'
 
-
-export function New(){
-
-  return(
-
+export function New() {
+  return (
     <Container>
-      <Header/>
+      <Header />
       <main>
         <Form>
           <header>
@@ -16,7 +14,9 @@ export function New(){
             <a href="/">Back</a>
           </header>
 
-          <Input placeholder='Title' />
+          <Input placeholder="Title" />
+
+          <TextArea placeholder={"Comments"} />
         </Form>
       </main>
     </Container>
